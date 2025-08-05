@@ -1,0 +1,4 @@
+{{frappe.get_url()}}/{{doc.doctype}}/{{doc.name}}
+
+Guest Print View
+{{frappe.get_url()}}/{{doc.doctype}}/{{doc.name}}?key={{frappe.get_doc(doc.doctype, doc.name).get_signature()}}
